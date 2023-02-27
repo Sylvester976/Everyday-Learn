@@ -1,5 +1,4 @@
-The array_fill function in PHP is used to create an array and fill it with a given value. Its signature is as follows:
-
+The array_fill function in PHP is used to create an array and fill it with a given value. Its syntax is as follows:
 array_fill ( int $start_index , int $num , mixed $value ) : array
 
 It takes three arguments:
