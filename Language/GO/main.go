@@ -26,4 +26,9 @@ func main() {
 	fmt.Println(member_name2, executiveMemberName2, SeniorBoardMember2)
 
 	//End of String Variables
+	//Integer Variables
+	var MemberAmount int = 1000
+	var executiveMemberAmount = 2000
+	SeniorBoardMemberAmount := 5000
+	fmt.Println(MemberAmount, executiveMemberAmount, SeniorBoardMemberAmount)
 }
