@@ -18,4 +18,10 @@ func main() {
 	executiveMemberName = "Mr CTO"
 	SeniorBoardMember = "Mr President"
 	fmt.Println(member_name, executiveMemberName, SeniorBoardMember)
+
+	//Declare Variables without keyword 'Var'(this cant be used outside the function, Used for New Variables)
+	member_name2 := "Mr Otieno"
+	executiveMemberName2 := "Mr Nyabenge"
+	SeniorBoardMember2 := "Mr Sylvester"
+	fmt.Println(member_name2, executiveMemberName2, SeniorBoardMember2)
 }
