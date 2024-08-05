@@ -31,4 +31,10 @@ func main() {
 	var executiveMemberAmount = 2000
 	SeniorBoardMemberAmount := 5000
 	fmt.Println(MemberAmount, executiveMemberAmount, SeniorBoardMemberAmount)
+
+	//Bits and Memory
+	var MinimumRemittance int8 = 50
+	var BorrowingLimit uint = 10000
+	var MemberBorrowingLimitInterest uint8 = 254
+	fmt.Println(MinimumRemittance, BorrowingLimit, MemberBorrowingLimitInterest)
 }
