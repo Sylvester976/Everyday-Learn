@@ -43,4 +43,7 @@ func main() {
 	var scoretwo float64 = 135135.090
 	scorethree := 2.08946
 	fmt.Println(scoreone, scoretwo, scorethree)
+
+	//Printing and formating strings
+	fmt.Println("Welcocme to the golf club ", member_name, ". ", executiveMemberName, "is our current club president and runs the day to day activities of the club")
 }
