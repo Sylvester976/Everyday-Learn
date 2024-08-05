@@ -13,4 +13,9 @@ func main() {
 	var SeniorBoardMember string
 	fmt.Println(member_name, executiveMemberName, SeniorBoardMember)
 
+	//Overwrite the variable
+	member_name = "Mr New Member"
+	executiveMemberName = "Mr CTO"
+	SeniorBoardMember = "Mr President"
+	fmt.Println(member_name, executiveMemberName, SeniorBoardMember)
 }
