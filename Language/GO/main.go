@@ -24,4 +24,6 @@ func main() {
 	executiveMemberName2 := "Mr Nyabenge"
 	SeniorBoardMember2 := "Mr Sylvester"
 	fmt.Println(member_name2, executiveMemberName2, SeniorBoardMember2)
+
+	//End of String Variables
 }
