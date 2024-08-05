@@ -37,4 +37,10 @@ func main() {
 	var BorrowingLimit uint = 10000
 	var MemberBorrowingLimitInterest uint8 = 254
 	fmt.Println(MinimumRemittance, BorrowingLimit, MemberBorrowingLimitInterest)
+
+	//Floats and Doubles
+	var scoreone float32 = 14.48
+	var scoretwo float64 = 135135.090
+	scorethree := 2.08946
+	fmt.Println(scoreone, scoretwo, scorethree)
 }
