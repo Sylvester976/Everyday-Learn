@@ -19,4 +19,10 @@ func main() {
 	scores = append(scores, 85)
 	fmt.Println(scores, len(scores))
 
+	//slices ranges
+	rangeOne := names[1:]
+	fmt.Println(rangeOne)
+
+	rangeOne = append(rangeOne, "Peris")
+	fmt.Println(rangeOne)
 }
