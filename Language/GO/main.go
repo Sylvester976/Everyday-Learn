@@ -11,4 +11,6 @@ func main() {
 	names := [3]string{"My", "Name", "Is"}
 	fmt.Println(names)
 
+	//slices
+
 }
