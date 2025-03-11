@@ -69,3 +69,9 @@ for x in range(5):
         print(f"{x},{y}")
 
 # iterables 
+for x in  "siesmiology":
+    print(x)
+    
+my_array = [1,2,3,4]
+for y in my_array:
+    print(y)
