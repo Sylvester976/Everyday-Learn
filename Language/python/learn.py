@@ -75,3 +75,18 @@ for x in  "siesmiology":
 my_array = [1,2,3,4]
 for y in my_array:
     print(y)
+
+# functions
+def myDebut(year):
+    if year == 1:
+        superstar = "Drogbaaaaa"
+        return superstar
+    elif year == 2:
+        superstar = "aGUEROOOOOO"
+        return superstar
+    else:
+        return "No athlete"
+
+
+for x in range(3):
+    print(myDebut(x))
